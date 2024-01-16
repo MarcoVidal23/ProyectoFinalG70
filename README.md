@@ -21,7 +21,12 @@ fatal: unable to access 'https://github.com/rmedinacl/rmedinacl.github.io.git/':
 
 Se realizara Commit a proyecto forkeado
 
+https://github.com/ChokkanBonsai/rmedinaclFORK realizado
 
+
+Pagina .IO
+
+https://chokkanbonsai.github.io/ProyectoFinalG64/
 
 
 
