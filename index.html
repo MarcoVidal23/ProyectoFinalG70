@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prueba Curso introducctorio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Curriculum Mejorado</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CV Fabrizzio Basso</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExample"
+                >Portafolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Educacion-p">Educación</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Experiencia">Experiencia laboral</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <h1 class="Titulopag">Algunos de mis trabajos</h1>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-2">
+              <!-- Contenido de la columna (puede contener texto, imágenes, etc.) -->
+              <h5>Mi primer CV</h5>
+              <p>
+                Este fue el primer CV que realizamos en el curso introducctorio,
+                consta de solo lenguaje de tipado estatico HTML.
+              </p>
+            </div>
+            <div class="col-md-9">
+              <!-- Imagen de la primera diapositiva -->
+              <img
+                src="./assets/img/ProyectoN1.PNG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Repite la estructura para las demás diapositivas -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-2">
+              <!-- Contenido de la columna para la segunda imagen -->
+              <h5>Pagina libre con uso de HTML Y CSS</h5>
+              <p>
+                Utilizamos los principios de HTML y las propiedades de CSS para
+                ajustar de forma correcta dentro la pagina los elementos a
+                mostrar.
+              </p>
+            </div>
+            <div class="col-md-9">
+              <!-- Imagen de la segunda diapositiva -->
+              <img
+                src="./assets/img/ProyectoN2.PNG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-2">
+              <!-- Contenido de la columna para la segunda imagen -->
+              <h5>Replicación de pagina IGUANA PAGE</h5>
+              <p>
+                Se toma como referencia unicamente la implementación de FONTS y
+                la capacidad de utilizar contenedores independientes para la
+                aplicación de formatos especificos de flexbox.
+              </p>
+            </div>
+            <div class="col-md-9">
+              <!-- Imagen de la segunda diapositiva -->
+              <img
+                src="./assets/img/ProyectoN3.PNG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-2">
+              <!-- Contenido de la columna para la segunda imagen -->
+              <h5>Aplicación similar a GROUPON</h5>
+              <p>
+                Uso de bootstrap para la aplicación de CARDS y su distribución
+                tanto en paginas web de computador como aplicada a navegadores
+                moviles con etiquetas que permiten su visualización en todo tipo
+                de dispositivo.
+              </p>
+            </div>
+            <div class="col-md-9">
+              <!-- Imagen de la segunda diapositiva -->
+              <img
+                src="./assets/img/ProyectoN4.PNG"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Repite la estructura para las demás diapositivas -->
+      </div>
+      <!-- Controles del carrusel (previo y siguiente) -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="LinksRepo">
+      <h2 class="TituloRepo">Accesos Github</h2>
+      <h3>
+        En este lugar dejare link's hacia los repositorios de los proyectos
+        mostrados en el slide
+      </h3>
+
+      <p>
+        <a
+          href="https://github.com/ChokkanBonsai/PrimeroProyecto.git"
+          class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          >Primer Proyecto</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://github.com/ChokkanBonsai/Seegundo-Proyecto.git"
+          class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          >Segundo Proyecto</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://github.com/ChokkanBonsai/LanaIguana.git"
+          class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          >Tercer Proyecto</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://github.com/ChokkanBonsai/Cuarto-Proyecto.git"
+          class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+          >Cuarto Proyecto</a
+        >
+      </p>
+    </section>
+
+    <section id="Educacion-p">
+      <h1>Educación</h1>
+      <div class="education-container">
+        <div>
+          <h3>Universidad Central</h3>
+          <h5>(Marzo 2016 - Septiembre 2021)</h5>
+          <p>Ingeniero Civil en Computación e Informática</p>
+          <ul>
+            <li>
+              Habilidad para diseñar sistemas con sus respectivos procesos y
+              procedimientos que permitan la factibilidad de implementación de
+              proyectos específicos en una empresa, cumpliendo con los
+              estándares técnicos - funcionales, y normas de calidad.
+            </li>
+            <li>
+              Gestor de procesos de cambio, midiendo el impacto de las
+              soluciones de la ingeniería sistémica dentro de un contexto
+              global.
+            </li>
+          </ul>
+        </div>
+        <div class="contenedor-educacion-img">
+          <img
+            src="./assets/img/LogoUcentral.jpg"
+            alt="Logo Universidad Central"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="Experiencia">
+      <h1 class="TituloExpLa">Experiencia Laboral</h1>
+      <div class="Exp1">
+        <h3>Enternet S.A.</h3>
+        <h4>IT Analyst Engineer en Enternet SA</h4>
+        <h5>(Mayo 2022 - Diciembre 2023)</h5>
+        <p>
+          Dirigí la integración de nuevas empresas en el sistema de facturación
+          de Enternet, verificando requisitos y validando soluciones
+          eficazmente.
+        </p>
+        <p>
+          Supervisé el entorno previo a la producción, realizando pruebas
+          rigurosas en nuevas funcionalidades y gestionando mejoras
+          proactivamente mediante solicitudes formales.
+        </p>
+        <p>
+          Desarrollé competencias en administración de bases de datos y generé
+          documentación detallada para sistemas SaaS clave, garantizando un uso
+          eficiente y la satisfacción del cliente.
+        </p>
+        <p>
+          Realicé análisis con herramientas computacionales, evaluando el
+          consumo de Servicios Web, validando APIs y asegurando la
+          implementación efectiva con nuestros valiosos clientes.
+        </p>
+      </div>
+
+      <div class="Exp2">
+        <h3>Comercializadora BEC SpA</h3>
+        <h4>Estratega de negocio internacionales en Audio Ric</h4>
+        <h5>(Diciembre 2020 - Mayo 2022)</h5>
+        <p>Lideré la creación de conexiones estratégicas para expandir
+          las ventas de la Empresa mediante tecnologías innovadoras.</p>
+          <p>Establecí filiales y negocié acuerdos con empresas del mismo
+            sector, aumentando significativamente nuestra cuota de mercado
+            y compitiendo con marcas de renombre.</p>
+            <p>Supervisé de cerca los equipos de ventas en diversas puntos
+              de Santiago y coordiné todas las operaciones correspondientes
+              para garantizar la eficiencia y el rendimiento óptimo.</p>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="footer">
+      <div class="fs-4">CV Fabrizzio Basso</div>
+      <div class="fs-6">
+        <p>® Desafio Latam.Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
